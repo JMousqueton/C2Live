@@ -90,7 +90,7 @@ def get_config():
     parser.add_argument("--elastic-url", "-u", type=str, help="elasticsearch url", required=True)
     parser.add_argument("--elastic-index", "-i", type=str.lower, default="C20", help="elasticsearch index")
     parser.add_argument("--elastic-verify", "-ev", type=bool, default=False, help="elasticsearch verify URL")
-    parser.add_argument("--data-url", "-d", type=str, default="https://github.com/montysecurity/C2-Tracker.git",
+    parser.add_argument("--data-url", "-d", type=str, default="https://github.com/JMousqueton/C2-Tracker.git",
                         help="Data source github repository")
     parser.add_argument("--local-path", "-l", type=str, default=join(getcwd(), "data"), help="Local path")
     parser.add_argument("--log-level", "-ll", type=str, default=None, help="Log Level")
